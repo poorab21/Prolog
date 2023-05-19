@@ -1,0 +1,10 @@
+male(johnny).
+male(andy).
+female(christa).
+female(jenny).
+parent(johnny,andy).
+parent(christa,andy).
+parent(johnny,jenny).
+parent(christa,jenny).
+father(X,Y):-male(X),parent(X,Y).
+mother(X,Y):-female(X),parent(X,Y).

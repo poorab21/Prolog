@@ -1,0 +1,16 @@
+sympton(a).
+sympton(b).
+sympton(c).
+sympton(d).
+symptonD(a,cancer).
+symptonD(b,cancer).
+symptonD(c,cancer).
+symptonD(d,corona).
+disease(cancer).
+disease(corona).
+medicine(m1).
+medicine(m2).
+medicine(m3).
+medicineC(m1,cancer).
+medicineC(m2,corona).
+medicineC(m3,corona).
